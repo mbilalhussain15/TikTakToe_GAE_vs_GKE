@@ -1,4 +1,4 @@
-**ACS_2005_TikTakToe_GAEvwGKE**
+# TikTakToe_GAE vs GKE
 
 A full-featured Tic-Tac-Toe game comparing Google App Engine (GAE) and Google Kubernetes Engine (GKE) implementations.
 
