@@ -1,0 +1,74 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-container img {
+    width: 500px;
+    height: 500px; 
+    margin-left: 200px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;           
+    justify-content: center;      
+    text-align: center;         
+    color: #fff;
+}
+
+.play-online,
+.play-computer {
+    width: 100%;             
+    max-width: 400px;
+    padding: 16px 24px;   
+    font-size: 18px;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;            
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.play-online {
+    background-color: #007bff;
+    color: white;
+}
+
+.play-online:hover {
+    background-color: #0056b3;
+}
+
+.play-computer {
+    background-color: #555;
+    color: white;
+}
+
+.play-computer:hover {
+    background-color: #333;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #f8f9fa; 
+    text-align: right; 
+    padding-right: 70%; 
+}
+
+  .footer p {
+    font-size: 13px;
+  }
+
+  .footer a {
+    color: inherit;
+    font-weight: bold;
+}

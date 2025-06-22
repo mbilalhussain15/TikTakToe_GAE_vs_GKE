@@ -1,0 +1,7 @@
+flask
+flask-cors
+flask-restful
+gunicorn
+numpy
+pool
+psycopg2-binary
